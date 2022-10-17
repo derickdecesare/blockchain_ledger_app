@@ -1,4 +1,4 @@
-# blockchain_web_app
+# blockchain_ledger_app
 This is an blockchain [web application]() built using python and deployed using streamlit that allows users to conduct transactions and verify the integrity of the data.
 
 This is what you will see before any transactions are added:
