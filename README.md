@@ -1,13 +1,17 @@
 # blockchain_ledger_app
-This is an blockchain [web application]() built using python and deployed using streamlit that allows users to conduct transactions and verify the integrity of the data.
+This is an blockchain [web application](https://derickdecesare-blockchain-ledger-app-pychain-oco6ek.streamlitapp.com/) built using python and deployed using streamlit that allows users to conduct transactions and verify the integrity of the data.
 
-This is what you will see before any transactions are added:
+## Before any transactions are added:
 ![empty](Images/empty.png)
 
-After adding a few transactions:
+---
+
+## <center> After adding a few transactions: </center>
 ![3_tran](Images/3_tran.png)
 
-Verifying a block:
+---
+
+## Verifying a block:
 ![verify](Images/verify.png)
 
 ---
@@ -24,7 +28,7 @@ This analysis uses Python and the following libraries:
 
 ## Installation Guide
 
-You can use the streamlit web app at [this link](). 
+You can use the streamlit web app at [this link](https://derickdecesare-blockchain-ledger-app-pychain-oco6ek.streamlitapp.com/). 
 
 OR
 
@@ -50,10 +54,13 @@ streamlit run pychain.py
 
 ## Usage
 
-After lauching the application through the [streamlit app]() or by running it locally on your computer you can add transactions and verify those transactions.
+After lauching the application through the [streamlit app](https://derickdecesare-blockchain-ledger-app-pychain-oco6ek.streamlitapp.com/) or by running it locally on your computer you can add transactions and verify those transactions. You can also change the difficulty of the block calculation needed to add a block by adjusting the difficulty score from 1-5.
+
 ---
 
 ## Contributors
 
 Derick Decesare | [LinkedIn](https://www.linkedin.com/in/derickdecesare/) | derick.decesare@gmail.com
+
+---
 
