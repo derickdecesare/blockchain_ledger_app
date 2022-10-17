@@ -1,5 +1,5 @@
 # blockchain_ledger_app
-This is an blockchain [web application](https://derickdecesare-blockchain-ledger-app-pychain-oco6ek.streamlitapp.com/) built using python and deployed using streamlit that allows users to conduct transactions and verify the integrity of the data.
+This is an blockchain [web application](https://derickdecesare-blockchain-ledger-app-pychain-oco6ek.streamlitapp.com/) built using python and deployed using streamlit that allows users to conduct transactions and verify the integrity of the data. The information of the block is customized by the user and is hashed by the SHA256 hashing algorithm. This hash is then added to the next block to ensure the validity of the chain. If one block is altered then that block and all following blocks will be invalid.
 
 ## Before any transactions are added:
 ![empty](Images/empty.png)
