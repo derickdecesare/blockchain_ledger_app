@@ -56,6 +56,8 @@ class Record:
     amount: float
 
 
+
+
 ################################################################################
 # Step 2:
 # Modify the Existing Block Data Class to Store Record Data
@@ -152,6 +154,7 @@ def setup():
 st.markdown("# PyChain")
 st.markdown("## Store a Transaction Record in the PyChain")
 
+# Serve the web app
 pychain = setup()
 
 ################################################################################
@@ -174,15 +177,15 @@ pychain = setup()
 
 # @TODO:
 # Add an input area where you can get a value for `sender` from the user.
-sender = st.text_area("Sender")
+sender = st.text_input("Sender")
 
 # @TODO:
 # Add an input area where you can get a value for `receiver` from the user.
-receiver = st.text_area("Receiver")
+receiver = st.text_input("Receiver")
 
 # @TODO:
 # Add an input area where you can get a value for `amount` from the user.
-amount = st.text_area("Amount")
+amount = st.text_input("Amount")
 
 if st.button("Add Block"):
     prev_block = pychain.chain[-1]
@@ -193,7 +196,7 @@ if st.button("Add Block"):
     # which is set equal to a `Record` that contains the `sender`, `receiver`,
     # and `amount` values
     new_block = Block(
-        record = Record,
+        record = Record(sender,receiver,amount),
         creator_id=42,
         prev_hash=prev_block_hash
     )
